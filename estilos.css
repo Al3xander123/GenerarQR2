@@ -100,13 +100,13 @@ img{animation:mianimacion 2s linear infinite;}
     width: 100%;
   }
   
-
-  imagen{
+/*
+  .imagen{
 	background-image: url("fondo2.png");  
   }
   #submain{width:100%;}
-  loading{width:100%;}
-  .softmerge-inner{width:100%;}
+  .loading{width:100%;}
+  .softmerge-inner{width:100%;}*/
 }
 
 /*
