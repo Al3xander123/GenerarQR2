@@ -1,13 +1,13 @@
-html{width:100%;height:100%;display:grid;place-items:center;}
-body{width:100%;height:100%;display:grid;place-items:center;}
-*{transition-duration:0.5s;transition-delay: 0.1s;}
+html{width:100%;height:100%;display:grid;place-items:center}
+body{width:100%;height:100%;display:grid;place-items:center}
+*{transition-duration:0.5s;transition-delay: 0.1s}
 *{box-sizing:border-box;}
 
-.div{width:10em;height:10em}
-.div{border:1px solid black}
+.div{width:10em;height:10em;}
+/*.div{border:2vw solid black}*/
 .div{display:grid;place-items:center}
-.imagen{position:absolute;width:100%;height:100%;}/*background-size:cover;}*/
-.imagen{background-image:url("fondopc1.png");background-size:cover;}
+.imagen{position:absolute;width:100%;height:100%}/*background-size:cover;}*/
+.imagen{background-image:url("fondopc1.png");background-size:cover}
 
 .imagen{z-index:1}
 .main{z-index:2}
@@ -20,7 +20,6 @@ body{width:100%;height:100%;display:grid;place-items:center;}
 .main,.submain,.loading,.searching,.texto{position:absolute}
 .submain{width:80%}
 .texto{width:80%}
-.softmerge-inner{width:80%}
 .texto{opacity:0}
 div{position:absolute}
 body{color:white}
@@ -28,15 +27,31 @@ body{color:white}
 .main{font-size:3vw}
 .submain{font-size:4vw}
 .loading{font-size:3vw}
-.searching{font-size:6vw}
+.searching{font-size:4vw}
 .texto{font-size:3vw}
-/*.softmerge-inner{margin:2vw}*/
+.softmerge-inner{width:80%}
+.softmerge-inner{padding:2vw}
+.softmerge-inner{background-color:rgba(0,0,0,0.5)}
 
-
+/*
+.texto{border:0.1vw solid black}
+*/
+/*
+.texto{display:grid;place-items:center}
+*/
+/*
+.softmerge-inner{border:0.1vw solid red}
+.sucursala,.sucursalb,.sucursalc{border:0.1vw solid yellow}
+.sucursala{text-align:center;border:0.1vw solid blue}
+*/
 /*.texto{background-color:rgba(0,0,0,0.5)}*/
-.softmerge-inner{margin:3vw 3vw 3vw 5vw; background-color:rgba(0,0,0,0.5)}
+/*.softmerge-inner{margin:auto}/*3vw 3vw 3vw 5vw}*/
+/*.softmerge-inner{padding: 2vw}*/
 .sucursala,.sucursalb,.sucursalc{position:relative}
-.sucursala{border:1px solid black; background-color:rgba(0,200,0,0.5);margin-top:2vw}
+.sucursala{
+	/*border:1px solid black;*/
+	background-color:rgba(0,200,0,0.5)}
+
 
 img{animation:mianimacion 2s linear infinite}
 @keyframes mianimacion{
@@ -48,5 +63,5 @@ img{animation:mianimacion 2s linear infinite}
 /*segundo computadoras*/
 @media only screen and (min-width:500px){
 /*	body{color:white}*/
-	.imagen{background-image:url("fondocel1.png");background-size:cover;}
+	.imagen{background-image:url("fondocel1.png");background-size:cover}
 }
