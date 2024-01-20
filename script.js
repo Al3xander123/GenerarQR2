@@ -31,10 +31,10 @@ async function FuncionFetch(archivo){
 	mivar = "<"+ mivar.substr(mivar.lastIndexOf('div id="1492913522"'));
 	mitexto.innerHTML = mivar;
 	let extraer = await mitexto.getElementsByTagName("td")[0].innerHTML;
-	extraer = await extraer.replace("Sucursal Limon 4<br>",'<div class="sucursal lista">Sucursal Limon 4</div>');
-	extraer = await extraer.replace("Codigo:",'<div class="sucursalb lista">C&oacute;digo:</div> <div>- ');
-	extraer = await extraer.replace("<br>Descripcion:",'</div><div class="sucursalb lista">Descripci&oacute;n:</div> <div> - ');
-	extraer = await extraer.replace("<br>Precio:",'</div><div class="sucursalb lista">Precio:</div> <div> -');
+	extraer = await extraer.replace("Sucursal Limon 4<br>",'<div class="sucursala lista">Sucursal Limon 4</div>');
+	extraer = await extraer.replace("Codigo:",'<div class="sucursalb lista">C&oacute;digo:</div> <div class="sucursalc">- ');
+	extraer = await extraer.replace("<br>Descripcion:",'</div><div class="sucursalb lista">Descripci&oacute;n:</div> <div class="sucursalc"> - ');
+	extraer = await extraer.replace("<br>Precio:",'</div><div class="sucursalb lista">Precio:</div> <div class="sucursalc"> -');
 	mitexto.innerHTML = extraer+"</div>";//+" Pesos";
 	let sofmeger = await document.getElementsByClassName("softmerge-inner");
 	fondo.style.filter="blur(8px)";
