@@ -32,7 +32,7 @@ body{color:white}
 .texto{font-size:3vw}
 
 .texto{background-color:rgba(0,0,0,0.5)}
-.softmerge-inner{padding:1vw 3vw 1vw 3vw}
+/*.softmerge-inner{padding:1vw 3vw 1vw 3vw}*/
 .sucursala,.sucursalb,.sucursalc{position:relative}
 .sucursala{border:1px solid black; background-color:rgba(0,200,0,0.5)}
 
