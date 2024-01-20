@@ -39,7 +39,8 @@ img{animation:mianimacion 2s linear infinite;}
 }
  
 .loading{font-size:30px;width:80%}
-.buscando,.texto{font-size:12px}
+.buscando{font-size:30px;}
+.texto{font-size:12px}
 .loading,.buscando,.texto{width:70%}
 .buscando{text-align:center}
 .texto{opacity:0;}/*
@@ -84,9 +85,7 @@ img{animation:mianimacion 2s linear infinite;}
 }
 .sucursalb{font-size:20px;}
 
-.buscando{
-	font-size:50px;
-}
+
 
  @keyframes mianimacion{
 	0%{transform:rotate(0deg);}
