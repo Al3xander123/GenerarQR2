@@ -38,8 +38,8 @@ img{animation:mianimacion 2s linear infinite;}
 	grid-gap: 10px;
 }
  
-.loading{font-size:30px;width:80%}
-.buscando{font-size:20px;}
+.loading{font-size:20px;width:80%}
+.buscando{font-size:15px;}
 .texto{font-size:12px}
 .loading,.buscando,.texto{width:70%}
 .buscando{text-align:center}
