@@ -39,6 +39,8 @@ async function FuncionFetch(archivo){
 	let sofmeger = await document.getElementsByClassName("softmerge-inner");
 	fondo.style.filter="blur(8px)";
 	sofmeger[0].style.width="80%";
+	sofmeger[0].style.left="50%";
+	sofmeger[0].style.translate="-50%";
 	cargando.style.opacity="0";
 	buscando.style.opacity="0";
 	eltexto.style.opacity="1";
